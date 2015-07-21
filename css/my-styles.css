@@ -1,3 +1,8 @@
+/* Global
+================================ */
+.rnd {
+	border-radius: 6px;
+}
 
 /* Type
 ================================ */
@@ -32,6 +37,31 @@ p {
 	line-height: 2.4;
 }
 
+.lead {
+	color: #d5c1f2;
+	margin-bottom: 70px;
+}
+
+.lead:nth-of-type(2) {
+	font-size: initial;
+	margin-bottom: 20px;
+}
+
+/* Banner Headline
+================================ */
+
+.headline {
+	background: #a085c6 url('../img/main-bg.png') no-repeat 200% 100%;
+	padding: 200px 0 140px 0;
+	margin-bottom: 70px;
+}
+
+.device {
+	width: 345px;
+	height: 589px;
+	background: url('../img/device-hero.png') no-repeat;
+}
+
 /* Layout
 ================================ */
 
@@ -61,6 +91,24 @@ p {
 	background-size: 100%;
 }
 
+/* Buttons
+================================= */
+
+.btn-dl {
+	color: inherit;
+	border: solid 2px;
+	margin-right: 10px;
+	padding: 12px 22px;
+	display: inline-block;
+}
+
+.btn-dl:hover {
+background-color: #fff;
+border-color: #fff;
+color: #957bba;
+}
+
+
 /* Media Queries
 ================================= */
 
@@ -71,6 +119,23 @@ p {
 	.main-logo {
 		width: 82px;
 	}
-}
 
+	.headline {
+		text-align: center;
+		padding-top: 95px;
+		padding-bottom: 15px;
+		margin-bottom: 32px;
+		background-position: 10% 10%;
+	}
+
+	h1 {
+		font-size: 2.25em;
+	}
+
+	.headline .lead {
+		font-size: 1em;
+		margin-bottom: 40px;
+	}
+
+}
 
